@@ -7,6 +7,10 @@
 -- Server version: 5.7.25-0ubuntu0.16.04.2
 -- PHP Version: 7.2.8
 
+create database if not exists `5kcrm`;
+
+use `5kcrm`;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
